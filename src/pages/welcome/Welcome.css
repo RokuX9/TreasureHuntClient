@@ -1,0 +1,32 @@
+.main__text {
+	margin: 0;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.vase__container {
+	width: fit-content;
+}
+
+.language__button {
+	background-image: url("../../assets/globe.svg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 20px 20px;
+	background-color: transparent;
+	border: 0;
+}
+
+.buttons_row {
+	column-gap: 10px;
+	display: flex;
+}
+
+/** override Main styling **/
+
+.welcome__main {
+	padding: 44px 60px;
+	row-gap: 52px;
+}

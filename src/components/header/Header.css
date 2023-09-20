@@ -1,0 +1,9 @@
+.header {
+	background-image: linear-gradient(#71c8a095, #2c62b295);
+	padding-top: 22px;
+	width: -webkit-fill-available;
+	border-radius: 0 0 90px 90px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}

@@ -1,0 +1,21 @@
+.group__main {
+	justify-content: space-between;
+	padding: 39px 44px;
+}
+
+.group__row {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 800;
+	row-gap: 25px;
+}
+
+.group__text {
+	margin: 0;
+}
+
+.group__select {
+	width: fit-content;
+}

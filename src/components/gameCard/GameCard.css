@@ -1,0 +1,13 @@
+.game_card {
+	display: flex;
+}
+
+.game_card__details {
+	flex-basis: 50%;
+}
+
+.game_card__image {
+	flex-basis: 50%;
+	height: 100px;
+	width: 100px;
+}
