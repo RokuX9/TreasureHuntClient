@@ -1,0 +1,7 @@
+.coin_counter__count {
+	text-shadow: 0 0 1px #ffe783, 0 0 1px #ffe783, 0 0 1px #ffe783,
+		0 0 1px #ffe783;
+	color: #f5bf38;
+	font-size: 20px;
+	font-weight: 600;
+}

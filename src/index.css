@@ -1,5 +1,5 @@
 :root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: Inter, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 	font-synthesis: none;
@@ -10,9 +10,10 @@
 }
 
 #root {
-	height: 100vh;
+	height: 100dvh;
 	display: flex;
 	flex-flow: column;
+	text-align: center;
 }
 
 body {

@@ -6,7 +6,7 @@ import Main from "../../components/main/Main";
 import Button from "../../components/button/Button";
 import Overlay from "../../components/overlay/Overlay";
 
-export default function Welcome(props) {
+export default function Welcome({ navigate, ...props }) {
 	const [openOverlay, setOpenOverlay] = React.useState(false);
 
 	return (
@@ -26,7 +26,13 @@ export default function Welcome(props) {
 					/>
 				</div>
 				<div className="buttons_row">
-					<Button>בואו נתחיל</Button>
+					<Button
+						onClick={() => {
+							navigate("/gameselect");
+						}}
+					>
+						בואו נתחיל
+					</Button>
 					<button
 						className="language__button"
 						onClick={() => {

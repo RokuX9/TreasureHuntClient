@@ -1,0 +1,16 @@
+.solve_riddle__main {
+	padding: 10px;
+	justify-content: space-evenly;
+}
+
+.solve_riddle__answer_bank {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.solve_riddle__instructions {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 800;
+}

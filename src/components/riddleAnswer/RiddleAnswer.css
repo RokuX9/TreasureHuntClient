@@ -1,0 +1,15 @@
+.riddle_answer {
+	display: flex;
+	gap: 5px;
+}
+
+.riddle_answer__content {
+	margin: 0;
+	display: inline-block;
+	font-size: 20px;
+	color: #2438ea;
+}
+
+.riddle_answer__answer {
+	border-bottom: 1px solid #2438ea;
+}

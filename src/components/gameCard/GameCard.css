@@ -1,13 +1,49 @@
 .game_card {
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: white;
+	border-radius: 20px;
 }
 
 .game_card__details {
-	flex-basis: 50%;
+	flex-grow: 1;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 10px 0;
+	justify-content: space-between;
 }
 
 .game_card__image {
-	flex-basis: 50%;
-	height: 100px;
-	width: 100px;
+	height: 120px;
+	width: 120px;
+	border-radius: 20px;
+}
+
+.game_card__name {
+	margin: 0;
+}
+
+.game_card__row {
+	display: flex;
+	justify-content: center;
+	column-gap: 8px;
+}
+
+.game_card__category {
+	border: 1px solid black;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 600;
+	height: 20px;
+	width: 20px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game_card__button {
+	padding: 2px 10px;
+	font-size: 16px;
 }

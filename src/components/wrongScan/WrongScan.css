@@ -1,0 +1,18 @@
+.wrong_scan__content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	row-gap: 5px;
+}
+
+.wrong_scan__header {
+	margin: 0;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.wrong_scan__text {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 800;
+}

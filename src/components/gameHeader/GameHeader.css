@@ -1,0 +1,17 @@
+.game_header {
+	flex-flow: column;
+	align-items: center;
+	padding: 30px;
+}
+
+.game_header__name {
+	margin: 0;
+	color: #934e0b;
+}
+
+.game_header__row {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	column-gap: 15px;
+}

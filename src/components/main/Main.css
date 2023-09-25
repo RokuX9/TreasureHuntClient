@@ -1,12 +1,12 @@
 .main {
-	margin: 13px 33px;
+	margin: 13px 40px;
 	background-color: #d9d9d925;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	position: relative;
-	height: -webkit-fill-available;
+	flex-grow: 1;
 }
 
 .bubble_up {
@@ -14,7 +14,7 @@
 }
 
 .bubble_down {
-	margin-bottom: 57px;
+	margin-bottom: 180px;
 }
 
 .main__arrow {
@@ -28,4 +28,10 @@
 	border-bottom: 36px solid #d9d9d925;
 	position: absolute;
 	top: -36px;
+}
+
+.main__arrow_type_down {
+	border-top: 36px solid #d9d9d925;
+	position: absolute;
+	bottom: -36px;
 }

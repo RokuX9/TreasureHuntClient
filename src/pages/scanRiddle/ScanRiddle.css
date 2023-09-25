@@ -1,0 +1,16 @@
+.scan_riddle__main {
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.scan_riddle__clue {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0;
+}
+
+.scan_riddle__instructions {
+	font-size: 16px;
+	font-weight: 800;
+	margin: 0;
+}
