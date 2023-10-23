@@ -1,0 +1,9 @@
+.draggable_image {
+	height: 60px;
+	width: 60px;
+	padding: 0;
+}
+
+.draggable_image__img {
+	width: 100%;
+}

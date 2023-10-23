@@ -1,0 +1,20 @@
+.unsolved_image_gate {
+	display: grid;
+	height: 200px;
+	width: 200px;
+	gap: 5px;
+}
+
+.unsolved_image_gate_2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.unsolved_image_gate_3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.unsolved_image_gate__game {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}

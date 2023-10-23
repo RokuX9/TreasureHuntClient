@@ -7,6 +7,8 @@ import GameSelect from "./pages/gameSelect/GameSelect";
 import Tutorial from "./pages/turotial/Tutorial";
 import ScanRiddle from "./pages/scanRiddle/ScanRiddle";
 import SolveRiddle from "./pages/solveRiddle/SolveRiddle";
+import MatchRiddle from "./pages/matchRiddle/MatchRiddle";
+import Gate from "./pages/gate/Gate";
 
 function App() {
 	const [gameState, setGameState] = React.useState({
@@ -81,6 +83,14 @@ function App() {
 							levelUp={levelUp}
 						/>
 					}
+				/>
+				<Route
+					path="/matchriddle"
+					element={<MatchRiddle />}
+				/>
+				<Route
+					path="/gate"
+					element={<Gate />}
 				/>
 			</Routes>
 		</>

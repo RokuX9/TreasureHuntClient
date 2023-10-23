@@ -1,0 +1,20 @@
+.locker_gate {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 10px;
+}
+
+.locker_gate__slider {
+	height: 45px;
+	max-width: 45px;
+	border: 1px solid black;
+}
+
+.locker_gate__slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}

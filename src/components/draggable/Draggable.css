@@ -1,0 +1,14 @@
+.draggable {
+	padding: 10px;
+	width: 131px;
+	background-color: white;
+	border: 1px solid #2c62b225;
+	touch-action: none;
+	user-select: none;
+	transition: transform 0.1s;
+	z-index: 1;
+}
+
+.draggable_active {
+	z-index: 2;
+}
